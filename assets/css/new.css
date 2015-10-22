@@ -9,7 +9,7 @@ color:white !important;
 font-size:18pt;
 letter-spacing:1px;
 text-decoration:none;
-background:url(images/kickswhite.png);
+background:url("images/kickswhite.png");
 background-position:20px center;
 background-size:45px;
 background-repeat:no-repeat;
