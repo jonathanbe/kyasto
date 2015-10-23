@@ -2,6 +2,24 @@ html, body{
 font-family: 'PT Sans', sans-serif;    
 }
 
+a.fa{
+font-size:34pt;    
+color:#999;cursor:pointer;
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;    
+}
+
+a.fa:hover{
+font-size:34pt;    
+color:#3eb489;
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;    
+}
+
 .topbutton{
 border:2px solid rgba(255,255,255,0.5);
 padding:15px 30px;
