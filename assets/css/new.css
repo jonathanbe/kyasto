@@ -553,6 +553,11 @@ border-top-right-radius:0px;
     -moz-transition: opacity .25s ease;    
 }
 
+input.email{
+widht:90%;    
+    
+}
+
 .yeezyseasonapproaching, div.sharkweek{
 height:500px;
 }
