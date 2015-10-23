@@ -95,7 +95,7 @@ padding-bottom:45px;
 
 
 #bghov1 {
-    width: 550px;
+    width: 450px;
     height: 420px;
     box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
     border-bottom: 2px solid #fff;
@@ -113,7 +113,7 @@ padding-bottom:45px;
 #overlay1 {
     background: rgba(62,180,137,0.7);
     text-align: center;
-     width: 550px;
+     width: 450px;
     height: 420px;
     opacity: 0;
     line-height:420px; border-top-left-radius:25px;
@@ -129,7 +129,7 @@ padding-bottom:45px;
 
 
 #bghov2 {
-    width: 550px;
+    width: 450px;
     height: 420px;
     box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
     border-bottom: 2px solid #fff;
@@ -147,7 +147,7 @@ padding-bottom:45px;
 #overlay2 {
     background: rgba(137,62,180,0.7);
     text-align: center;
-     width: 550px;
+     width: 450px;
     height: 420px;
     opacity: 0;
     line-height:420px;
@@ -166,7 +166,7 @@ padding-bottom:45px;
 
 
 #bghov3 {
-    width: 550px;
+    width: 450px;
     height: 420px;
     box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
     border-bottom: 2px solid #fff;
@@ -183,7 +183,7 @@ padding-bottom:45px;
 #overlay3 {
     background: rgba(255, 64, 68,0.7);
     text-align: center;
-     width: 550px;
+     width: 450px;
     height: 420px;
     opacity: 0;
     line-height:420px;
@@ -202,7 +202,7 @@ padding-bottom:45px;
 
 
 #bghov4 {
-    width: 550px;
+    width: 450px;
     height: 420px;
     box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
     border-bottom: 2px solid #fff;
@@ -219,7 +219,7 @@ padding-bottom:45px;
 #overlay4 {
     background: rgba(64, 255, 251,0.7);
     text-align: center;
-     width: 550px;
+     width: 450px;
     height: 420px;
     opacity: 0;
     line-height:420px;
@@ -552,6 +552,24 @@ border-top-right-radius:0px;
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;    
 }
-     
+
+#banner{
+background-attachment:relative;    
+position:relative;    
+}     
       
 }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+#banner{
+background-attachment:relative;    
+position:relative;    
+}     
+
+
+
+}
+
