@@ -95,7 +95,7 @@ padding-bottom:45px;
 
 
 #bghov1 {
-    width: 450px;
+    width: 550px;
     height: 420px;
     box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
     border-bottom: 2px solid #fff;
@@ -113,7 +113,7 @@ padding-bottom:45px;
 #overlay1 {
     background: rgba(62,180,137,0.7);
     text-align: center;
-     width: 450px;
+     width: 550px;
     height: 420px;
     opacity: 0;
     line-height:420px; border-top-left-radius:25px;
@@ -129,7 +129,7 @@ padding-bottom:45px;
 
 
 #bghov2 {
-    width: 450px;
+    width: 550px;
     height: 420px;
     box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
     border-bottom: 2px solid #fff;
@@ -147,7 +147,7 @@ padding-bottom:45px;
 #overlay2 {
     background: rgba(137,62,180,0.7);
     text-align: center;
-     width: 450px;
+     width: 550px;
     height: 420px;
     opacity: 0;
     line-height:420px;
@@ -166,7 +166,7 @@ padding-bottom:45px;
 
 
 #bghov3 {
-    width: 450px;
+    width: 550px;
     height: 420px;
     box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
     border-bottom: 2px solid #fff;
@@ -183,7 +183,7 @@ padding-bottom:45px;
 #overlay3 {
     background: rgba(255, 64, 68,0.7);
     text-align: center;
-     width: 450px;
+     width: 550px;
     height: 420px;
     opacity: 0;
     line-height:420px;
@@ -202,7 +202,7 @@ padding-bottom:45px;
 
 
 #bghov4 {
-    width: 450px;
+    width: 550px;
     height: 420px;
     box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
     border-bottom: 2px solid #fff;
@@ -219,7 +219,7 @@ padding-bottom:45px;
 #overlay4 {
     background: rgba(64, 255, 251,0.7);
     text-align: center;
-     width: 450px;
+     width: 550px;
     height: 420px;
     opacity: 0;
     line-height:420px;
@@ -557,6 +557,30 @@ border-top-right-radius:0px;
 background-attachment:relative;    
 position:relative;    
 }     
+  
+
+
+input.contact{
+width:95%;
+display:block;margin-top:10px;
+}      
+ 
+textarea.contact{
+width:95%;    
+display:block;    margin-top:-15px;    
+
+}
+      
+a.contact{
+width:95% !important;    
+}      
+   
+      
+div.contact{
+padding-left:5%;
+padding-right:5%;
+}
+      
       
 }
 
@@ -569,7 +593,33 @@ background-attachment:relative;
 position:relative;    
 }     
 
-
+#bghov1, #bghov2, #bghov3,#bghov4 {
+    width: 350px;
+    height: 420px;
+    display:block;
+    margin-bottom:0px;
+    margin-right:0px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+    margin-top:5px;
+}      
+   
+      
+#overlay1, #overlay2, #overlay3, #overlay4 {
+    text-align: center;
+     width: 100%;
+    height: 420px;
+    opacity: 0;
+    line-height:420px;
+border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;   
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;    
+}
 
 }
 
