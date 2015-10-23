@@ -567,7 +567,9 @@ background-attachment:relative;
 position:relative;    
 }     
   
-
+#header.alt {
+border-bottom:10px solid rgba(5,5,5,0.8);    
+}
 
 input.contact{
 width:95%;
